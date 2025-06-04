@@ -23,7 +23,7 @@
         "rmp_facility": {
           "title": "Facilities",
           "description": "Details of facilities in the EPA Risk Management Plans, including associated chemical names and NAICS codes.",
-          "facets": ["state", "county", "naics_codes"],
+          "facets": ["state", "county"],
           "fts_table": "facility_fts",
           "fts_pk": "epa_facility_id",
           "plugins": {
